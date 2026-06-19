@@ -1,0 +1,14 @@
+{
+  "name": "pi-agent-config",
+  "private": true,
+  "type": "module",
+  "devDependencies": {
+    "@earendil-works/pi-coding-agent": "^0.79.8",
+    "@types/node": "^26.0.0",
+    "typescript": "^6.0.3",
+    "vitest": "^1.0.0"
+  },
+  "scripts": {
+    "test": "vitest"
+  }
+}

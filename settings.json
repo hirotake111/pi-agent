@@ -1,0 +1,20 @@
+{
+  "lastChangelogVersion": "0.79.8",
+  "defaultProvider": "github-copilot",
+  "defaultModel": "gpt-5-mini",
+  "defaultThinkingLevel": "medium",
+  "theme": "nebula-pulse",
+  "extensions": [
+    "-extensions/lazygit-modal.ts",
+    "-extensions/lazygit-shortcut.ts",
+    "-extensions/reopen-session.ts"
+  ],
+  "themes": [
+    "-themes/catppuccin.json",
+    "+themes/matrix.json",
+    "-themes/hiro-dark.json"
+  ],
+  "packages": [
+    "npm:context-mode"
+  ]
+}

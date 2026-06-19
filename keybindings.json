@@ -1,0 +1,26 @@
+{
+  "app.editor.external": [
+    "ctrl+g"
+  ],
+  "app.model.select": [
+    "ctrl+l"
+  ],
+  "app.session.resume": [
+    "ctrl+shift+r"
+  ],
+  "extension.lazygit": [
+    "ctrl+e"
+  ],
+  "tui.editor.cursorUp": [
+    "up",
+    "ctrl+p"
+  ],
+  "tui.editor.cursorDown": [
+    "down",
+    "ctrl+n"
+  ],
+  "tui.input.newLine": [
+    "shift+enter",
+    "ctrl+j"
+  ]
+}
