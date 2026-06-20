@@ -34,6 +34,10 @@ Example prompts
 - "Refactor authentication module"
   - Plan: "1) Identify auth surface 2) Propose refactor 3) Implement and run tests"
 
+Git Operations
+---------------
+- Always ask user before "git commit", or "git push". Do not commit or push without user's permissions
+
 Why this file
 -------------
 I prefer baked-in instructions here (instead of installing a skill) so pi always loads these rules on startup without additional packages.
