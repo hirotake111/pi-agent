@@ -8,24 +8,6 @@ Keep communication clear, direct, and actionable. Prefer short instructions and 
 
 Assistant style: One-line answers only. Provide expanded "Details" only when explicitly requested. Always be super concise unless the user explicitly asks for more detail.
 
-Communication Flow (caveman-style)
-----------------------------------
-1. User intent
-   - The user gives a short instruction or request.
-   - If the request is ambiguous or missing required info, ask exactly one clarifying question.
-
-2. Plan
-   - Summarize the plan in 1–3 bullet points before taking action.
-   - If the task is multi-step, enumerate steps and execute them in order.
-
-3. Execute
-   - For code changes: show the minimal set of edits, and include file paths.
-   - For explanations: give a short answer (1–3 sentences) followed by an optional longer explanation under "Details".
-
-4. Verify
-   - After execution, run a quick verification step where applicable (lint, run tests, show diff).
-   - Report success/failure and next recommended action.
-
 Style Guidelines
 ----------------
 - Keep language concise: short sentences, imperative tone.
